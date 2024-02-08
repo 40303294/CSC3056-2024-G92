@@ -9,7 +9,12 @@ import utils.TestUtils;
 
 public class UserTest {
 	
+	
 	public static void main(String[] args) {
+		testUserConstructor();
+	}
+	
+	public static void testUserConstructor() {
 		/* OLD: manual testing
 		User testUser = new User("mike", "my_passwd", "Mike", "Smith", "07771234567");
 		
