@@ -87,7 +87,7 @@ public class SimpleBankingApp {
 	 * that match the account and get their sum total. For example, if an account has only two transactions in the 
 	 * system, with values = $10.79 and $-140, the balance would be $-129.21
 	 * 
-	 * @param account_number
+	 * @param 
 	 * @return A double value, being the balance of the account
 	 */
 	
