@@ -5,7 +5,7 @@
 package tests;
 
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 import model.Account;
@@ -24,10 +24,7 @@ public class AccountTest {
 		String account_number = "00009479";
 		String username_of_account_holder = "mike";
 		String account_type = "Standard";
-		
-		String date_string = "11-06-2017";
-		SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
-		Date account_opening_date = formatter.parse(date_string);
+		LocalDateTime account_opening_date = LocalDateTime.of(2017,6,11,0,0);
 		
 		// 2. Exercise, Run the object under test (Constructor)
 		Account testAccount = new Account(account_number, username_of_account_holder, account_type, account_opening_date);
@@ -63,10 +60,8 @@ public class AccountTest {
 		String account_number = "00004997";
 		String username_of_account_holder = "Sam";
 		String account_type = "Saving";
-		
-		String date_string = "11-06-2017";
-		SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
-		Date account_opening_date = formatter.parse(date_string);
+		LocalDateTime account_opening_date = LocalDateTime.of(2019,12,6,0,0);
+
 		
 		Account testAccount = new Account(account_number, username_of_account_holder, account_type, account_opening_date);
 		
@@ -76,12 +71,12 @@ public class AccountTest {
 			assert testAccount.getAccount_type() == account_type;
 			assert testAccount.getAccount_opening_date() == account_opening_date;
 				
-			System.out.println("Account Number: " + account_number);
+			System.out.println("\nAccount Number: " + account_number);
 			System.out.println("Username of account holder: " + username_of_account_holder);
 			System.out.println("Account Type: " + account_type);
 			System.out.println("Account Opening Date: " + account_opening_date);
 			
-			System.out.println("All Java assertions in the test suite passed (none failed)");
+			System.out.println("\nAll Java assertions in the test suite passed (none failed)");
 				
 		
 	}
