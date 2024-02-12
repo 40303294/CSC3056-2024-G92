@@ -1,5 +1,5 @@
 /*
- * Class done by Lauren
+ * Class done by Lauren + chooiwen
  */
 
 package tests;
@@ -13,6 +13,7 @@ public class UserTest {
 	public static void main(String[] args) {
 		testUserConstructor();
 	}
+	
 	
 	public static void testUserConstructor() {
 		/* OLD: manual testing
@@ -38,7 +39,7 @@ public class UserTest {
 				// 3 - Verify (Assert)
 				System.out.println("Starting the assertions of the test method: testUserConstructor");
 				
-				if (testUser.getUsername() != test_username)
+				if (testUser.getUsername() == test_username)
 					System.out.println(TestUtils.TEXT_COLOR_GREEN + "TC1-getUsername-Passed" + TestUtils.TEXT_COLOR_RESET);
 				else
 					System.out.println(TestUtils.TEXT_COLOR_RED + "TC1-getUsername-FAILED" + TestUtils.TEXT_COLOR_RESET);
@@ -66,6 +67,18 @@ public class UserTest {
 					System.out.println(TestUtils.TEXT_COLOR_GREEN + "TC2-getMobileNumber-Passed" + TestUtils.TEXT_COLOR_RESET);
 				else
 					System.out.println(TestUtils.TEXT_COLOR_RED + "TC2-getMobileNumber-FAILED" + TestUtils.TEXT_COLOR_RESET);
+				
+				
+				// Asserts
+				
+				// assert 1 == 2;
+				assert testUser.getUsername() == test_username;
+				assert testUser.getPassword() == test_password;
+				assert testUser.getFirst_name() == test_first_name;
+				assert testUser.getLast_name() == test_last_name;
+				assert testUser.getMobile_number() == test_mobile_number;
+				
+				System.out.println("All Java assertions in the test suite passed (none failed)");
 				
 	}
 
