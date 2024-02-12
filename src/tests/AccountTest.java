@@ -79,9 +79,9 @@ public class AccountTest {
 			System.out.println("\nAll Java assertions in the test suite passed (none failed)");
 				
 		
-	}
-	
-	public static void main(String[] args) throws ParseException {
+		}
+
+		public static void main(String[] args) throws ParseException {
 		testConstructor();
 		testSetters();
 

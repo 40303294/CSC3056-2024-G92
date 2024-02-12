@@ -46,5 +46,5 @@ public class Transaction {
 	public String toString() {
 		return account_number + ", " + transaction_amount + ", " + transaction_date;
 	}
-	
+
 }

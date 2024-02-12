@@ -67,5 +67,5 @@ public class Account {
 				account_number, username_of_account_holder, account_type, "("+ getFormattedOpeningDate() +")", 
 				SimpleBankingApp.getBalance(account_number));
 	}
-	
+
 }

@@ -49,9 +49,7 @@ public class UserTest {
 				else
 					System.out.println(TestUtils.TEXT_COLOR_RED + "TC2-getPassword-FAILED" + TestUtils.TEXT_COLOR_RESET);
 				
-				/*
-				 * These tests written by Chooi Wen
-				 */
+				// TODO 1 - Develop The three other test code blocks
 				
 				if (testUser.getFirst_name() == test_first_name)
 					System.out.println(TestUtils.TEXT_COLOR_GREEN + "TC2-getFirstName-Passed" + TestUtils.TEXT_COLOR_RESET);
@@ -79,7 +77,7 @@ public class UserTest {
 				assert testUser.getMobile_number() == test_mobile_number;
 				
 				System.out.println("All Java assertions in the test suite passed (none failed)");
-				
-	}
+
+			}
 
 }
