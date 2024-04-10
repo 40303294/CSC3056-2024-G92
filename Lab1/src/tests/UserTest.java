@@ -2,7 +2,7 @@
  * Class done by Lauren + chooiwen
  */
 
-package tests;
+package src.tests;
 
 import model.User;
 import utils.TestUtils;

@@ -3,7 +3,7 @@
  * Edited and TODO's by Lauren + chooiwen
  */
 
-package app;
+package src.app;
 
 import java.time.LocalDateTime;
 import java.util.Calendar;

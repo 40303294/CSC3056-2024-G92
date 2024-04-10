@@ -3,7 +3,7 @@
  */
 
 
-package model;
+package src.model;
 
 import java.util.Date;
 

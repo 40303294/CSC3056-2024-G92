@@ -3,7 +3,7 @@
  */
 
 
-package model;
+package src.model;
 
 public class User {
 	private String username;

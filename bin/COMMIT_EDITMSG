@@ -1,0 +1,54 @@
+Merge remote-tracking branch 'origin/main'
+
+# Conflicts:
+#	.classpath
+#	Lab1/app/SimpleBankingApp.java
+#	Lab1/model/Account.java
+#	Lab1/model/Transaction.java
+#	Lab1/model/User.java
+#	Lab1/src/app/SimpleBankingApp.java
+#	Lab1/src/model/Account.java
+#	Lab1/src/model/Transaction.java
+#	Lab1/src/model/User.java
+#	Lab1/src/tests/AccountTest.java
+#	Lab1/src/tests/SimpleBankingAppTest.java
+#	Lab1/src/tests/UserTest.java
+#	Lab1/src/utils/TestUtils.java
+#	Lab1/tests/AccountTest.java
+#	Lab1/tests/SimpleBankingAppTest.java
+#	Lab1/tests/UserTest.java
+#	Lab1/utils/TestUtils.java
+#	src/app/SimpleBankingApp.java
+#	src/model/Account.java
+#	src/model/Transaction.java
+#	src/model/User.java
+#	src/tests/AccountTest.java
+#	src/tests/SimpleBankingAppTest.java
+#	src/tests/UserTest.java
+#	src/utils/TestUtils.java
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please run
+#	git update-ref -d MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   .classpath
+#	new file:   Lab1/src/app/SimpleBankingApp.java
+#	new file:   Lab1/src/model/Account.java
+#	new file:   Lab1/src/model/Transaction.java
+#	new file:   Lab1/src/model/User.java
+#	new file:   Lab1/src/tests/AccountTest.java
+#	new file:   Lab1/src/tests/SimpleBankingAppTest.java
+#	new file:   Lab1/src/tests/UserTest.java
+#	new file:   Lab1/src/utils/TestUtils.java
+#

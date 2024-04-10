@@ -2,7 +2,7 @@
  * Copied and pasted in from the provided files.
  */
 
-package utils;
+package src.utils;
 
 public class TestUtils {
 

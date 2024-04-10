@@ -3,7 +3,7 @@
  * Edited and TODO's by Lauren + chooiwen
  */
 
-package tests;
+package src.tests;
 
 import app.SimpleBankingApp;
 import utils.TestUtils;
